@@ -1,0 +1,17 @@
+-var pageTitle="Home"
+<!DOCTYPE html>
+html(lang="en")
+    head
+        include pug/layout/meta
+        include pug/layout/styles
+    body
+        main
+            section.landing
+                //- START NAVBAR
+                include pug/components/navbar
+                h2.big-text Stay Afloat
+        //- START INTRO
+        include pug/components/intro
+        include pug/components/slider
+        //- Scripts
+        include pug/layout/scripts
